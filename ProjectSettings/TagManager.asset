@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Cave
+  - Rock
+  - CursedStone
+  - Door3Trigger
+  - Door2Trigger
+  - Door1Trigger
+  - CaveExit
+  - Loot
+  - Door4Trigger
+  - BreadCrumbs
+  - Book
+  - GameEnd
+  - Crystal
+  - driedland
+  - crystaltaker
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Ground
+  - YuME_TileMap
+  - Player
+  - pickable object
+  - Body Parts
+  - templayer to change material
+  - BreadCrumbs
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
