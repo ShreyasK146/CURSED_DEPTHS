@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4456117614096109901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4456117614096109900}
+  - component: {fileID: 4456117614096109903}
+  m_Layer: 0
+  m_Name: CaveCollapse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4456117614096109900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456117614096109901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.857, y: -9.921, z: -3.671}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4456117614096109903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456117614096109901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fb651b6ef92394aa0b3b996116d13f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rocks:
+  - {fileID: 6915694568017751771, guid: be73356ed43721946be07147ca7cdf7a, type: 3}
+  - {fileID: 6219947132247877860, guid: 2d733540071e0744ea851a37e925b95c, type: 3}
+  - {fileID: 9029660327719922253, guid: 1cc6be1d156804a41919d16b4e2d25dc, type: 3}
+  - {fileID: 769422489828580396, guid: a8f5de1829fc42c4991e403aef808db2, type: 3}
+  - {fileID: 2458216978477514011, guid: a0a1c1763dfa53b4bbc5c05b5a32b6e5, type: 3}
+  spawnAreas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  cave: {fileID: 0}
+  player: {fileID: 0}
+  playerCurrentLocation: {fileID: 0}
+  caveCollapseAudio: {fileID: 0}
+  playerHealthController: {fileID: 0}
+  objective: {fileID: 0}
+  playerDied: 0

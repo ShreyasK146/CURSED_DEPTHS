@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3838729242897761951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3838729242897761949}
+  - component: {fileID: 3838729242897761948}
+  m_Layer: 0
+  m_Name: TipManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3838729242897761949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838729242897761951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 227.73396, y: 40.94498, z: 51.774357}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3838729242897761948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838729242897761951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610b36cb555fa4e4d9e9483395b1c64f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipCanvas: {fileID: 0}
+  tipText: {fileID: 0}
+  tipDisplayDuration: 10
+  tips:
+  - locaitonName: SpawningArea
+    tipMessage: 'Use the WASD keys to navigate
+
+      and your mouse to control your
+      view
+
+      Press Esc to pause the game'
+  - locaitonName: Objective
+    tipMessage: To view your current objective press ESC
+  - locaitonName: MetalDoor
+    tipMessage: You need a Key
+  - locaitonName: GoldenDoor
+    tipMessage: You need Golden Key
+  - locaitonName: CursedStone
+    tipMessage: ..................
+  - locaitonName: SpawningArea2
+    tipMessage: 'To turn on your flashlight, press the "F" key.
+
+      To leave breadcrumbs
+      and mark your way, press "R."
+
+      Remember, you have only a limited supply
+      of both flashlight power and breadcrumbs.
+
+      Press "E" to pickup items'
+  - locaitonName: Inventory
+    tipMessage: 'To check your belongings, hit "I."
+
+      To learn more about items,
+      click on them in your Inventory.
+
+      Using light sources is crucial. Staying
+      in the dark too long can be deadly.'

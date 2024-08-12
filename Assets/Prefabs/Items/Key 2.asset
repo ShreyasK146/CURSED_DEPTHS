@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79af729b50b9895459ce3a5fd341f9b6, type: 3}
+  m_Name: Key 2
+  m_EditorClassIdentifier: 
+  id: 15
+  itemName: KeyDoor3
+  price: 5
+  icon: {fileID: 21300000, guid: b44749fbf27b0124dbb8d6c45df4c6c6, type: 3}
+  prefab: {fileID: 8662267507261231500, guid: 5a6924c4a9a4aeb4ba904412d3612776, type: 3}

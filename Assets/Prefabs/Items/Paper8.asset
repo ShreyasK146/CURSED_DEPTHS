@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79af729b50b9895459ce3a5fd341f9b6, type: 3}
+  m_Name: Paper8
+  m_EditorClassIdentifier: 
+  id: 8
+  itemName: StoryPaper_8
+  price: 2
+  icon: {fileID: 21300000, guid: 918868b0a3894594baeadb88281a087a, type: 3}
+  prefab: {fileID: 5526897799996706805, guid: f162d102a500bcb40a896515e31bba43, type: 3}
